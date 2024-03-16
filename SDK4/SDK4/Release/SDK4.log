@@ -1,0 +1,8 @@
+﻿  SDK4.cpp
+C:\Users\admin\Desktop\SDK\SDK4\SDK4\SDK4.cpp(86,18): error C2065: “Lg_Text”: 未声明的标识符
+C:\Users\admin\Desktop\SDK\SDK4\SDK4\SDK4.cpp(86,5): error C2660: “DrawTextW”: 函数不接受 4 个参数
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8202,1):
+  参见“DrawTextW”的声明
+  C:\Users\admin\Desktop\SDK\SDK4\SDK4\SDK4.cpp(86,5):
+  尝试匹配参数列表“(HDC, unsigned int, RECT *, int)”时
+  
