@@ -1,0 +1,68 @@
+﻿  sdk5.cpp
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(190,5): error C2664: “int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)”: 无法将参数 2 从“const _Elem *”转换为“LPCWSTR”
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(190,5): error C2664:         with
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(190,5): error C2664:         [
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(190,5): error C2664:             _Elem=char
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(190,5): error C2664:         ]
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(190,30):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8202,1):
+  参见“DrawTextW”的声明
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(190,5):
+  尝试匹配参数列表“(HDC, const _Elem *, unsigned __int64, RECT *, int)”时
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(216,9): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(216,26):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+  参见“MessageBoxW”的声明
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(216,9):
+  尝试匹配参数列表“(int, const char [5], const char [6], long)”时
+  
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(356,5): error C2664: “BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)”: 无法将参数 4 从“const char [9]”转换为“LPCWSTR”
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(356,62):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  参见“AppendMenuW”的声明
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(356,5):
+  尝试匹配参数列表“(HMENU, long, UINT_PTR, const char [9])”时
+  
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(357,5): error C2664: “BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)”: 无法将参数 4 从“const char [9]”转换为“LPCWSTR”
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(357,62):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  参见“AppendMenuW”的声明
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(357,5):
+  尝试匹配参数列表“(HMENU, long, UINT_PTR, const char [9])”时
+  
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(365,5): error C2664: “BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)”: 无法将参数 4 从“const char [9]”转换为“LPCWSTR”
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(365,47):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  参见“AppendMenuW”的声明
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(365,5):
+  尝试匹配参数列表“(HMENU, long, int, const char [9])”时
+  
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(366,5): error C2664: “BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)”: 无法将参数 4 从“const char [9]”转换为“LPCWSTR”
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(366,47):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  参见“AppendMenuW”的声明
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(366,5):
+  尝试匹配参数列表“(HMENU, long, int, const char [9])”时
+  
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(367,5): error C2664: “BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)”: 无法将参数 4 从“const char [9]”转换为“LPCWSTR”
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(367,47):
+  指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  D:\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  参见“AppendMenuW”的声明
+  C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(367,5):
+  尝试匹配参数列表“(HMENU, long, int, const char [9])”时
+  
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(374,9): error C2065: “GCL_HCURSOR”: 未声明的标识符
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(375,9): warning C4311: “类型强制转换”: 从“HCURSOR”到“LONG”的指针截断
+C:\Users\admin\Desktop\sdk5\sdk5\sdk5.cpp(375,9): warning C4302: “类型强制转换”: 从“HCURSOR”到“LONG”截断
